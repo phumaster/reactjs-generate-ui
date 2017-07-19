@@ -1,0 +1,77 @@
+[{
+  "name": "LoginForm",
+  "id": "loginForm",
+  "className": "form-inline",
+  "validateType": "sync",
+  "hasSelect": true,
+  "hasFieldArray": false,
+  "fields": [
+    {
+      "name": "username",
+      "label": "Username",
+      "type": "text"
+    }, {
+      "name": "password",
+      "label": "Password",
+      "type": "password"
+    }, {
+      "name": "gender",
+      "label": "Gender",
+      "type": "select"
+    }
+  ],
+  "validate": {
+    "username": {
+      "required": {
+        "value": true,
+        "message": "Please input this field"
+      },
+      "minLength": {
+        "value": 6,
+        "message": "This field must be > 6"
+      },
+      "maxLength": {
+        "value": -1,
+        "message": ""
+      },
+      "type": {
+        "values": "string",
+        "message": "Field is Invalid"
+      },
+      "between": {
+        "value": "6|12",
+        "message": "Value must be > 6 and < 12"
+      },
+      "same": {
+        "value": "password",
+        "message": "2 password not match"
+      }
+    },
+    "password": {
+      "required": {
+        "value": true,
+        "message": "Please input this field"
+      },
+      "minLength": {
+        "value": 6,
+        "message": "This field must be > 6"
+      },
+      "maxLength": {
+        "value": -1,
+        "message": ""
+      },
+      "type": {
+        "values": "string",
+        "message": "Field is Invalid"
+      },
+      "between": {
+        "value": "6|12",
+        "message": "Value must be > 6 and < 12"
+      },
+      "same": {
+        "value": "password",
+        "message": "2 password not match"
+      }
+    }
+  }
+}]
