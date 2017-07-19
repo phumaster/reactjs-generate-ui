@@ -6,7 +6,7 @@
     "authors": [
         {
             "name": "phumaster",
-            "email": "nhoc95gait@gmail.com"
+            "email": "phumaster.dev@gmail.com"
         }
     ],
     "require": {
@@ -16,5 +16,8 @@
        "psr-4": {
            "PhuMaster\\":  "app/"
        }
-   }
+   },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    }
 }
