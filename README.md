@@ -22,6 +22,6 @@ Generate UI for React use ReduxForm
 
 [MIT](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2013-present, PhuMaster.
+Copyright (c) 2017-present, PhuMaster.
 
 > Happy coding, PhuMaster
